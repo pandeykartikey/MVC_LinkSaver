@@ -1,0 +1,59 @@
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/* unvisited link */
+.button a:link ,
+.button a:visited,
+.button a:hover,
+.button a:active {
+    color: white;
+    text-decoration: none;
+}
+.links{
+  color:red;
+}
+input,select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+a:link ,
+ a:visited,
+ a:active {
+      color:black;
+      text-decoration: none;
+}
+a:hover{
+  color:red;
+  text-decoration: none;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}

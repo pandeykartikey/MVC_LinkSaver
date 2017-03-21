@@ -1,0 +1,21 @@
+{
+  "name": "kartikeypandey/mvc",
+  "description": "Sample App for MVC lecture",
+  "require":{
+  "torophp/torophp":"dev-master",
+  "twig/twig": "1.*"
+   },
+   "authors":[
+    {
+      "name":"Kartikey Pandey",
+      "email": "k.p.2511998@gmail.com"
+    }
+   ],
+"autoload": {
+  "psr-4": {
+    "Link\\Controllers\\":"app/controllers",
+    "Link\\Models\\":"app/model"
+    }
+  }
+
+}

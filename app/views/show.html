@@ -1,0 +1,19 @@
+<html>
+  <head>
+
+<link rel="stylesheet" type="text/css" href="style/style.css">
+  </head>
+<body>
+{% for post in posts %}
+<p class='links'>link {{loop.index0 + 1}}:<a href='{{post.link}}'>
+{{post.link}}</a></p>
+{% endfor %}
+
+<div class="button"><a href="/">Go to Profile</a></div>
+
+<div class="button"><a href="/addLink">Save Links</a></div>
+<div class="button"><a href="/login">Log Out</a></div>
+
+
+</body>
+  </html>
