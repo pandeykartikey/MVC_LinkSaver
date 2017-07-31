@@ -7,9 +7,8 @@
       $pass=$_POST['psw'];
       if(Post::verify($name,$pass)){
         $this->render('dashboard.html',['post'=>$name]);
-      }else{
-        $this->render('login.html');
       }
+      $this->render('login.html');
     }
   }
 ?>

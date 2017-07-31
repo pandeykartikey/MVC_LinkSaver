@@ -8,10 +8,8 @@
       if($name==null||$pass==null){
         $this->render('register.html');
       }
-      else{
       Post::add($name,$pass);
       $this->render('dashboard.html',['post'=>$name]);
-      }
     }
   }
 ?>
